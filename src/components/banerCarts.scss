@@ -16,25 +16,32 @@
       .banerCartsContainer{
       border: 1px red solid;
       padding:0 1%;
-
+      display: flex;
+      justify-content: space-between;
+      
           .cart {
-              width: 25%;
+              width: 24%;
               background-color: white;
               padding: 1%;
               h2 {
-                font-size: 1.4vw;
+                font-size: 1.2vw;
               }
               .collection {
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: space-between;
                 padding: 1%;
                 span {
                   display: flex;
                   flex-direction: column;
-                  width: 49%;
+                  width: 45%;
                   img {
-                    width: 100%;
+                    width: 80%;
+                    height: 100%;
                     object-fit: contain;
+                  }
+                  small{
+                      font-size: 0.8vw;
                   }
                 }
               }
