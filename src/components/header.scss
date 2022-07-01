@@ -1,0 +1,78 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0F1111;
+    padding: 0.5%;
+    img{
+        width: 6%;
+        object-fit: contain;
+    }
+    .location{
+        display: flex;
+        align-items: center;
+        color: white;
+        margin-left: 1%;
+        .locationIcon{
+            font-size: 1vw;
+        }
+        span{
+            display: flex;
+            flex-direction: column;
+            font-size: 0.8vw;
+        }
+    }
+    form{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        background-color: #FFD814;
+        margin-left: 1%;
+        color: white;
+        border-radius:5px;
+
+        input{
+            flex: 1;
+            font-size: 1vw;
+            padding: 0.5%;
+            outline: none;
+            border: none;
+        border-radius:5px 0 0 5px;
+
+        }
+        span{
+                padding: 0.65%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .searchIcon{
+                    font-size: 1vw;
+                    color: black;
+                }
+        }
+    }
+    .rightSection{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 0.18;
+        margin-left: 1%;
+        color: white;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            font-size: 0.8vw;
+            // margin: 0 2%;
+            &:nth-child(3){
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .cartIcon{
+                    font-size: 1.5vw;
+                }
+            }
+        }
+    }
+}
