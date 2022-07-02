@@ -8,8 +8,8 @@ import "./components/banerCarts.scss"
 import "./main.scss"
 function App() {
   
-  return  <div className="App">
-    < Router >
+  return < Router >
+    <div className="App">
       {/* Route SignIn */}
     <Routes>
     <Route path="/signIn" element={<SignIn />}/>
@@ -26,9 +26,9 @@ function App() {
       <Routes>
         <Route path="/" element={ <Rows/>}/>
         </Routes>
-    </Router>
      
   </div>
+    </Router>
   
     ;
 }
