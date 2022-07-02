@@ -2,6 +2,7 @@
     width: 90%;
     margin: 0 auto;
     .mainBaner {
+
         .bnrImg {
           z-index: -4;
           position: relative;
@@ -14,15 +15,16 @@
       }
       
       .banerCartsContainer{
-      border: 1px red solid;
       padding:0 1%;
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
       
           .cart {
               width: 24%;
               background-color: white;
               padding: 1%;
+              margin-bottom: 1%;
               h2 {
                 font-size: 1.2vw;
               }
@@ -48,4 +50,18 @@
             }
       }
       
+}
+
+// =========== banerCartTwo
+.banerCartTwo{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1%;
+  width: 24%;
+  margin-bottom: 1%;
+  img{
+    object-fit: contain;
+  }
 }
