@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import "./header.scss"
 import logo from "../images/logo.png"
 import { GoLocation } from "react-icons/go"
@@ -8,7 +9,9 @@ function Header() {
   return (
       <div className='header'>
           {/* logo */}
-          <img src={logo} alt="Logo" />
+          <Link className='logoLink' to ="/">
+              <img src={logo} alt="Logo" />
+              </Link>
           {/* location */}
           <div className="location">
               <GoLocation className='locationIcon'/>
@@ -25,10 +28,12 @@ function Header() {
           {/* right section */}
          <div className='rightSection'>
               {/* sign in */}
+              <Link className='signInLink' to="/signIn">
               <div>
                   <small>Hello, Sign in</small>
                   <b>Account & Lists</b>
               </div>
+              </Link>
               {/* orders */}
               <div>
                   <small>Returns</small>
