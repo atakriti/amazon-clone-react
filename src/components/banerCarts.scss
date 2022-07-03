@@ -76,4 +76,38 @@
 }
 
 
-==================== 
+// ==================== Media query ====================
+@media only screen and (max-width:800px) {
+  .main{
+    width: 100%;
+   .banerCartsContainer{
+     .cart{
+       width: 49%;
+       h2{
+         font-size: 3.5vw;
+       }
+       .collection{
+         span{
+           small{
+             font-size: 3vw;
+           }
+         }
+       }
+
+
+     }
+   }
+  }
+
+
+  // ========= baner Cart Two
+  .banerCartTwo{
+    width: 49%;
+    h2{
+      font-size: 3.5vw;
+    }
+    a{
+      font-size: 3vw;
+    }
+  }
+}

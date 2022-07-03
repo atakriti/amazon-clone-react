@@ -30,3 +30,20 @@
         }
     }
 }
+
+
+// ================ Media query ===============
+@media only screen and (max-width:800px) {
+    .main{
+        .rows{
+            h2{
+                font-size: 3.5vw;
+            }
+            .rowsMain{
+                .rowsContainer{
+                    width: 250%;
+                }
+            }
+        }
+    }
+}
