@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./components/banerCarts.scss"
 import "./main.scss"
+import Footer from "./components/Footer";
 function App() {
   
   return < Router >
@@ -25,6 +26,9 @@ function App() {
       {/* Route Rows */}
       <Routes>
         <Route path="/" element={ <Rows/>}/>
+      </Routes>
+      <Routes>
+        <Route path="/" element={ <Footer/>}/>
         </Routes>
      
   </div>

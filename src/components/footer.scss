@@ -1,0 +1,26 @@
+.footer{
+background-color: #232F3E;
+padding: 1%;
+.footerContainer{
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    ul{
+        width: 24%;
+        list-style: none;
+       p{
+           font-size: 1vw;
+            padding: 2%;
+            color: white;
+            font-weight: bold;
+       }
+        li{
+            color: white;
+            font-size: 0.9vw;
+            width: 50%;
+            padding: 2%;
+        }
+    }
+}
+}
