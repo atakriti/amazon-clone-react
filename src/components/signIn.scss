@@ -61,3 +61,35 @@
        
      }
 }
+
+
+// ======================= Media query =====================
+@media only screen and (max-width:900px) {
+    .SignInContainer{
+        .signIn{
+            width: 90%;
+            .signInBox{
+                h2{
+                    font-size: 4vw;
+                }
+                strong{
+                    font-size: 3.7vw;
+                }
+                form{
+                    input{
+                        font-size: 3.7vw;
+                    }
+                    button{
+                        font-size: 3.7vw;
+                    }
+                }
+                p{
+                    font-size: 3.5vw;
+                }
+                b{
+                    font-size: 3.5vw;
+                }
+            }
+        }
+    }
+}
