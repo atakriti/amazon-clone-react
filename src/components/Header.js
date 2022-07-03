@@ -35,10 +35,12 @@ function Header() {
               </div>
               </Link>
               {/* orders */}
+              <Link className='signInLink' to="/signIn">
               <div>
                   <small>Returns</small>
                   <b>& Orders</b>
               </div>
+              </Link>
               {/* cart */}
               <div>
                   <FiShoppingCart className='cartIcon'/>

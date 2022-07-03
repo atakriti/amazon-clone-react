@@ -17,7 +17,7 @@ let img4Link2 = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExpor
 let dressesImg = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/Fuji_dash_dress_1X._SY304_CB626369146_.jpg"
 let computersImg ="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg"
 let healthImg ="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg"
-let dealImg = "https://m.media-amazon.com/images/I/417+VAaLnXL._AC_SY230_.jpg"
+let dealImg = "https://m.media-amazon.com/images/I/61LyqKQT-SL._AC_SY230_.jpg"
 let electronicImg = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg"
 
 let weShipImg = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/October/Fuji_D2_45M_en_US_1x._CB418309979_.jpg"

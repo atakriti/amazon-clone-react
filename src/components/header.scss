@@ -83,3 +83,50 @@
         }
     }
 }
+// ============================================== Media query =================
+@media only screen and (max-width:800px) {
+    .header{
+        flex-wrap: wrap;
+        padding: 2%;
+        .logoLink{
+            width: 20%;
+        }
+        .location{
+            .locationIcon{
+                font-size: 4vw;
+            }
+            span{
+                font-size: 3vw;
+            }
+        }
+        form{
+            // flex: none;
+            // width: 80%;
+            input{
+                font-size: 3vw;
+                padding: 3%;
+            }
+            span{
+                padding: 1% 4%;
+                .searchIcon{
+                    font-size: 5vw;
+                }
+            }
+        }
+        .rightSection{
+            margin: 0%;
+            flex: none;
+            width: 100%;
+            padding: 1%;
+           div{
+               font-size: 3vw;
+               &:nth-child(3){
+                .cartIcon{
+                    font-size: 6vw;
+                }
+               }
+           }
+        }
+
+    }
+}
