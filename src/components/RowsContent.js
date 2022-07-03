@@ -1,11 +1,13 @@
-function RowsContent({h2,image}) {
+import {Link} from "react-router-dom"
+
+function RowsContent({ h2, image }) {
   return (
     <div className="rows">
       <h2>{h2}</h2>
       <div className="rowsMain">
         <div className="rowsContainer">
           {image.map((p,i) => (
-              <img key={i} src={p}/>
+            <Link to="/"><img key={i} src={p}/></Link>
           ))}
         </div>
       </div>

@@ -4,19 +4,27 @@
         margin: 0 auto;
         padding: 1%;
         background-color: white;
+        h2{
+            font-size: 1.2vw;
+        }
         .rowsMain{
             white-space: nowrap;
             overflow-y: hidden;
             overflow-x: scroll;
             padding: 1% 0;
             .rowsContainer{
-                // width: 150%;
                 display: flex;
                 justify-content: space-between;
-                img{
-                    object-fit: contain;
-                //   border: 2px solid;
+                width: 130%;
+               a{
+                   display: flex;
+                margin-right: 2%;
+
+                   img{
+                width: 100%;
+               
                 }
+               }
                 
             }
         }
