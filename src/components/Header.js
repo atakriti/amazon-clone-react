@@ -1,11 +1,15 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
+
 import "./header.scss"
 import logo from "../images/logo.png"
 import { GoLocation } from "react-icons/go"
 import { BsSearch } from "react-icons/bs"
-import {FiShoppingCart} from "react-icons/fi"
-function Header() {
+import { FiShoppingCart } from "react-icons/fi"
+export let Zero = 0
+
+export function Header() {
+    
   return (
       <div className='header'>
           {/* logo */}
@@ -45,10 +49,11 @@ function Header() {
               <div>
                   <FiShoppingCart className='cartIcon'/>
                   <b>Cart</b>
+                  <b className='zero'>{ Zero}</b>
               </div>
          </div>
       </div>
   )
 }
 
-export default Header
+// export default Header

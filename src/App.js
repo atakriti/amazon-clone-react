@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import {Header} from "./components/Header";
 import Baner from "./components/Baner";
 import Rows from "./components/Rows";
 import SignIn from "./components/SignIn";

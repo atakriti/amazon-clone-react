@@ -4,6 +4,8 @@
     align-items: center;
     background-color: #0F1111;
     padding: 0.5%;
+    position: sticky;
+    top: 0;
    .logoLink{
        width: 6%;
 
@@ -60,7 +62,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex: 0.18;
+        flex: 0.20;
         margin-left: 1%;
         color: white;
 .signInLink{
@@ -79,6 +81,10 @@
                 .cartIcon{
                     font-size: 1.5vw;
                 }
+            }
+            .zero{
+                font-size: 1.4vw;
+                margin-left: 3%;
             }
         }
     }

@@ -13,22 +13,22 @@ function Footer() {
               {/* ul1 */}
               <ul>
                   <p>Get to Know Us</p>
-                  {ul1.map(p => <li>{ p}</li>)}
+                  {ul1.map((p,i) => <li key={i}>{ p}</li>)}
               </ul>
               {/* ul2 */}
               <ul>
                   <p>Make Money with Us</p>
-              {ul2.map(p => <li>{ p}</li>)}
+              {ul2.map((p,i) => <li key={i}>{ p}</li>)}
               </ul>
               {/* ul3 */}
               <ul>
                   <p>Amazon Payment Products</p>
-              {ul3.map(p => <li>{ p}</li>)}
+              {ul3.map((p,i) => <li key={i}>{ p}</li>)}
               </ul>
               {/* ul4 */}
               <ul>
                 <p>Let Us Help You</p>
-              {ul4.map(p => <li>{ p}</li>)}
+              {ul4.map((p,i) => <li key={i}>{ p}</li>)}
               </ul>
           </div>
       </div>

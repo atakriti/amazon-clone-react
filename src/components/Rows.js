@@ -3,10 +3,10 @@ import RowsContent from "./RowsContent"
 // firts row
 let imagesFirtsRow = [
   "https://m.media-amazon.com/images/I/91NCBKatgpL._AC_SY200_.jpg",
-  "https://m.media-amazon.com/images/I/61Q-yjubnES._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/512DNg+rnaS._AC_SY200_.jpg",
   "https://m.media-amazon.com/images/I/81DW2Wo5zaL._AC_SY200_.jpg",
   "https://m.media-amazon.com/images/I/81Xpcn98s4L._AC_SY200_.jpg",
-  "https://m.media-amazon.com/images/I/51kPkibiuSL._AC_SY200_.jpg",
+  "https://m.media-amazon.com/images/I/71L2i2B4DIL._AC_SY200_.jpg",
   "https://m.media-amazon.com/images/I/81KW+WySaTL._AC_SY200_.jpg",
   "https://m.media-amazon.com/images/I/A17rF8ZjiiL._AC_SY200_.jpg",
   "https://m.media-amazon.com/images/I/51F2UE5TIjL._AC_SY200_.jpg",
