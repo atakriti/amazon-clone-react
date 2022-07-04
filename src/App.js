@@ -14,32 +14,23 @@ import Footer from "./components/Footer";
 
 function App() {
   
-  return < Router >
-    <div className="App">
+  return  <div className="App">
       {/* Route SignIn */}
     <Routes>
-    <Route path="/signIn" element={<SignIn />}/>
+        <Route path="/signIn" element={<SignIn />}/>
       </Routes>
+      
       {/* Route Header */}
-      <Routes>
-        <Route path="/" element={<Header />} />
-      </Routes>
-      {/* Route Baner */}
-        <Routes>
-        <Route path="/" element={<Baner />} />
-      </Routes>
-      {/* Route Rows */}
-      <Routes>
-        <Route path="/" element={ <Rows/>}/>
-      </Routes>
-      <Routes>
-        <Route path="/" element={ <Footer/>}/>
-        </Routes>
+
+      <Header />
+      <Baner />
+      <Rows/>
+      <Footer/>
+
+
+
      
-  </div>
-    </Router>
-  
-    ;
+  </div>;
   
 }
 
