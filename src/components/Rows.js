@@ -33,13 +33,16 @@ function Rows(props) {
     <div className="main">
       <RowsContent
         h2="Frequently repurchased in Beauty and Personal Care"
-        image = {imagesFirtsRow}
+        image={imagesFirtsRow}
+        handleCount={props.handleCount}
       />
        <RowsContent
         h2="Popular products in PC internationally"
         image={imagesSecondRow}
         // Can i set className here ??????
         className="secondRowImages"
+        handleCount={props.handleCount}
+
       />
     </div>
    

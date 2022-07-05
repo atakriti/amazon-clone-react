@@ -1,11 +1,6 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
-import { Zero } from "./Header";
-function RowsContent({ h2, image }) {
-  let [number, setNumber] = useState(Zero)
-  let handleIncrement = () => {
-    setNumber(number + 1)
-  }
+function RowsContent({ h2, image ,handleCount}) {
+
 
   return (
     <div className="rows">
@@ -14,7 +9,7 @@ function RowsContent({ h2, image }) {
         <div className="rowsContainer">
           {image.map((p,i) => (
             <Link  key={i} to="/"><img  src={p}/>
-            <button onClick={handleIncrement}>Add to Cart</button>
+            <button onClick={handleCount}>Add to Cart</button>
             
             </Link>
           ))}

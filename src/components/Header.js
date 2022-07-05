@@ -6,9 +6,8 @@ import logo from "../images/logo.png"
 import { GoLocation } from "react-icons/go"
 import { BsSearch } from "react-icons/bs"
 import { FiShoppingCart } from "react-icons/fi"
-export let Zero = 0
 
-export function Header() {
+export function Header(props) {
     
   return (
       <div className='header'>
@@ -49,7 +48,7 @@ export function Header() {
               <div>
                   <FiShoppingCart className='cartIcon'/>
                   <b>Cart</b>
-                  <b className='zero'>{ Zero}</b>
+                  <b className='zero'>{ props.zero}</b>
               </div>
          </div>
       </div>
