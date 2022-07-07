@@ -85,6 +85,7 @@
             .zero{
                 font-size: 1.4vw;
                 margin-left: 3%;
+                color: orange;
             }
         }
     }
@@ -127,9 +128,19 @@
            div{
                font-size: 3vw;
                &:nth-child(3){
+                   flex: 0.3;
                 .cartIcon{
                     font-size: 6vw;
                 }
+               }
+               .zero{
+                   font-size: 5vw;
+                   border: 1px white solid;
+                   border-radius: 50%;
+                   width: 30%;
+                   display: flex;
+                   justify-content: center;
+                   align-items: center;
                }
            }
         }
