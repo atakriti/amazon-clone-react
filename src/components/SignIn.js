@@ -10,7 +10,7 @@ function SignIn() {
       <Header/>
         <div className='SignInContainer'>
           <div className='signIn'>
-          <Link className='signInImg' to="/">
+          <Link className='signInImg' to="/amazon-clone-react">
           <img src={Logo} alt="" />
           </Link>
           <div className="signInBox">

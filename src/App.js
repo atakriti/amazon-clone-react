@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/amazon-clone-react" element={<Home />} />
           <Route path="/signIn" element={<SignIn />} />
         </Routes>
       </div>

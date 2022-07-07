@@ -11,7 +11,7 @@ function RowsContent({ h2, image ,handleCount}) {
         <div className="rowsContainer">
           {image.map((p, i) => (
             
-            <Link  key={i} to="/"><img  src={p}/>
+            <Link  key={i} to="/amazon-clone-react"><img  src={p}/>
             <button onClick={handleCount}>Add to Cart</button>
             
             </Link>

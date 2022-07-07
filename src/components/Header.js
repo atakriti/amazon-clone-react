@@ -12,7 +12,7 @@ export function Header(props) {
   return (
       <div className='header'>
           {/* logo */}
-          <Link className='logoLink' to ="/">
+          <Link className='logoLink' to ="/amazon-clone-react">
               <img src={logo} alt="Logo" />
               </Link>
           {/* location */}
