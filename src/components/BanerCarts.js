@@ -1,4 +1,6 @@
 import "./banerCarts.scss";
+import React from "react";
+
 function BanerCarts(props) {
   return (
     <div className="cart">

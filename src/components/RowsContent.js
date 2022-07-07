@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import React from "react";
+
 function RowsContent({ h2, image ,handleCount}) {
 
 
@@ -7,7 +9,8 @@ function RowsContent({ h2, image ,handleCount}) {
       <h2>{h2}</h2>
       <div className="rowsMain">
         <div className="rowsContainer">
-          {image.map((p,i) => (
+          {image.map((p, i) => (
+            
             <Link  key={i} to="/"><img  src={p}/>
             <button onClick={handleCount}>Add to Cart</button>
             

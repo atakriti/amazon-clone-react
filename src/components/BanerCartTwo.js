@@ -1,3 +1,5 @@
+import React from "react";
+
 function BanerCartTwo(props) {
   return (
     <div className="banerCartTwo">

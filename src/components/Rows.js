@@ -1,5 +1,7 @@
 import "./rows.scss"
 import RowsContent from "./RowsContent"
+import React from "react";
+
 // firts row
 let imagesFirtsRow = [
   "https://m.media-amazon.com/images/I/91NCBKatgpL._AC_SY200_.jpg",

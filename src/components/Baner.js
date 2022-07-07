@@ -1,6 +1,8 @@
 import BanerCarts from "./BanerCarts"
 import BanerCartTwo from "./BanerCartTwo";
 import "./banerCarts.scss";
+import React from "react";
+
 
 let banerImg = "https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg";
 // first image
